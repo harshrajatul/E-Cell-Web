@@ -1,0 +1,120 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.gridLink{
+    float: right;
+    background-color: blue;
+    width: 100%;
+    height: 1px;
+}
+
+.grdLink{
+    float: left;
+    margin-left: 50px;
+    margin-top: 40px;
+    color: white;
+    text-decoration: none;
+    border-radius: 3px;
+    font-size: 25px;
+    padding: 5px;
+    padding-top: 0;
+    padding-bottom: 0;
+}
+a.grdLink:hover{
+    background: rgb(0, 98, 255);
+    transition: .5s;
+}
+
+.photo-container{
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    height: 500px;
+    background-image: linear-gradient(blue, cyan);
+    
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+    text-align:center;
+}
+
+.photo{
+    margin: 100px;
+}
+
+.actPh{
+    height: 250px;
+    width: 250px;
+    border-radius: 1000px;
+}
+
+.name{
+    margin-top: 15px;
+    font-family: 'Dancing Script', cursive;
+    font-size: 55px;
+    font-weight: bold;
+}
+
+.others{
+    height: 23vh;
+    width: 100%;
+    margin: 0;
+}
+
+.intro{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+    line-height: 40px;
+    font-family: 'Dosis', sans-serif;
+    font-size: 25px;
+}
+
+
+.links{
+    width: 100%;
+    height: 250px;
+    background-image: linear-gradient(aqua,blue);
+    display: flex;
+    justify-content: space-around;
+}
+
+.insta{
+    margin-top: 100px;
+    margin-bottom: 100px;
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+}
+
+.yt{
+    margin-top: 100px;
+    margin-bottom: 100px;
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+}
+
+.whatsapp{
+    margin-top: 100px;
+    margin-bottom: 100px;
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+}
+
+.insta:hover{
+    color: black;
+}
+
+.yt:hover{
+    color: black;
+}
+
+.whatsapp:hover{
+    color: black;
+}
